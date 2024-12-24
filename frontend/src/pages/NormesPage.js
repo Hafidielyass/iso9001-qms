@@ -117,12 +117,12 @@ function NormesPage() {
   return (
     <Box>
       <PageHeader
-        title="Normes et exigences"
+        title="Norme ISO 9001"
         onAdd={() => {
           setSelectedNorme(null);
           setOpenNormeDialog(true);
         }}
-        buttonLabel="Nouvelle norme"
+        buttonLabel="Nouvelle sous-chapitre"
       />
 
       {normes?.map((norme) => (
